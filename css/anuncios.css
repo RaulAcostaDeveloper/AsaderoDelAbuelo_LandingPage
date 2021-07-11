@@ -28,9 +28,10 @@ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida San
         flex-wrap: wrap;
     }
    .seccion-anuncio{
-       width:50vw;
+       width:45vw;
    }
    .seccion-anuncio h3{
        font-size: 25px;
+       width: 100%;
    }
 }
