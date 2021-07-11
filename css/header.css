@@ -1,0 +1,101 @@
+header{
+    background-color: rgba(249,164,22,1);
+    -webkit-box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
+    -moz-box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
+    box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
+    font-family: 'Alfa Slab One', cursive;
+}
+
+@media screen and (min-width:0px) and (max-width: 768px){
+    header img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+    header{
+        height:50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-Desktop{
+        display: none;
+    }
+    header button{
+      position: absolute;
+      right: 5px;
+      margin: 0px;
+      width: 40px;
+      height: 45px;
+      background-image: url('../imagenes/header/menu-hamburguesa.svg');
+      background-color: rgba(249,164,22,0.5);
+      background-size: cover;
+      border: 0;
+  }
+  header button:hover{
+      background-color: white;
+  }
+  .menu-movile{
+      position: fixed;
+  }
+
+    
+}
+@media screen and (min-width:768px){
+    header{
+        height: 50vh;
+        background-color: rgba(249,164,22,1);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-Desktop{
+        display: block;
+        height: 100%;
+        display: flex;
+        justify-content:flex-end;
+        align-items: center;
+        margin-right: 20px;
+    }
+    header img{
+        height: 100%;
+        float: left;
+    }
+    header a{
+      text-decoration: none;
+      -webkit-text-fill-color: rgb(240, 236, 236);
+      -webkit-text-stroke: 1px rgb(0, 0, 0);
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 15px;
+
+  }
+  header button{
+      position: absolute;
+      right: 5px;
+      margin: 0px;
+      width: 40px;
+      height: 45px;
+      background-image: url('../imagenes/header/menu-hamburguesa.svg');
+      background-color: rgba(249,164,22,0.5);
+      background-size: cover;
+      border: 0;
+  }
+  header button:hover{
+      background-color: white;
+  }
+  .menu-movile{
+      position: fixed;
+  }
+}
+@media screen and (min-width:1140px){
+    header a{
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 22px;
+    }
+}
+@media screen and (min-height:1050){
+    header{
+        height: 250px;
+    }
+}

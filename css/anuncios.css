@@ -1,0 +1,36 @@
+
+.seccion-anuncio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100vw;
+}
+.seccion-anuncio img{
+    max-width: 90%;
+    height: auto;
+}
+.seccion-anuncio h3{
+font-size: 35px;
+text-align: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+@media (max-width:768px){
+    .seccion-anuncio{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width:768px){
+    #anuncios{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+   .seccion-anuncio{
+       width:50vw;
+   }
+   .seccion-anuncio h3{
+       font-size: 25px;
+   }
+}
