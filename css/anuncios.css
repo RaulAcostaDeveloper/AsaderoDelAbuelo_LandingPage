@@ -9,6 +9,10 @@
     max-width: 90%;
     height: auto;
 }
+/* .seccion-anuncio:hover{
+    margin-bottom: 10px;
+    transition: 0.5s;
+} */
 .seccion-anuncio h3{
 font-size: 35px;
 text-align: center;
