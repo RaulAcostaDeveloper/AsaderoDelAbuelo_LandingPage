@@ -3,7 +3,6 @@ header{
     -webkit-box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
     -moz-box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
     box-shadow: 3px 0px 16px 19px rgba(249,164,22,1);
-    font-family: 'Alfa Slab One', cursive;
 }
 
 @media screen and (min-width:0px) and (max-width: 768px){
