@@ -3,11 +3,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100vw;
 }
 .seccion-anuncio img{
-    max-width: 90%;
+    width: 90%;
     height: auto;
+}
+.carousel-item{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 /* .seccion-anuncio:hover{
     margin-bottom: 10px;
