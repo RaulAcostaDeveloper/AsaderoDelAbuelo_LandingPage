@@ -1,6 +1,6 @@
 const la_casa_de_la_arrachera = document.querySelector('#la-casa-de-la-arrachera');
 const tacos = document.querySelector('#tacos');
-const variedad = document.querySelector('#variedad');
+const musicaEnVivo = document.querySelector('#MusicaEnVivo');
 const ambiente_familiar = document.querySelector('#ambiente-familiar');
 const bebidas_y_licores = document.querySelector('#bebidas-y-licores');
 const pide_a_domicilio = document.querySelector('#pide-a-domicilio');
@@ -10,7 +10,7 @@ const ubicacion = document.querySelector('#ubicacion');
 
 animarSección(la_casa_de_la_arrachera);
 animarSección(tacos);
-animarSección(variedad);
+animarSección(musicaEnVivo);
 animarSección(ambiente_familiar);
 animarSección(bebidas_y_licores);
 animarSección(pide_a_domicilio);
