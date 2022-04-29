@@ -9,3 +9,11 @@
     color: white;
     font-size: 25px;
 }
+.menuBody{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menuBody img{
+    max-width: 100%;
+}
